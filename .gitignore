@@ -1,22 +1,22 @@
 ### AL - Dynamics 365 Business Central ###
 
-# Pastas de configuração do VS Code
+# Pasta de configuração do VS Code
 .vscode/
 
-# Pastas de cache do AL Compiler
+# Cache do AL Compiler
 .alcache/
 
-# Pastas de símbolos e pacotes baixados
+# Pacotes e símbolos
 .packages/
 
-# Pastas de snapshots e builds temporários
+# Snapshots e builds temporários
 .snapshots/
 .out/
 
-# Arquivos de aplicativo de extensão compilados
+# Arquivos compilados de extensão
 *.app
 
-# Arquivos de desenvolvimento rápido (RAD)
+# Arquivo RAD
 rad.json
 
 # Arquivos de tradução
@@ -25,19 +25,20 @@ rad.json
 # Arquivos de licença
 *.flf
 
-# Resultados dos testes unitários
+# Resultados de testes unitários
 TestResults.xml
 
 # Arquivos temporários do sistema
 *.tmp
 *.bak
 *.swp
-
-# Logs
 *.log
 
 # Outros arquivos de build
-*.o *.obj *.dll *.exe
+*.o
+*.obj
+*.dll
+*.exe
 
-# Ignorar pastas de dependências externas se houver
+# Pastas de dependências externas (Node ou outros)
 node_modules/
